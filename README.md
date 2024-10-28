@@ -83,11 +83,11 @@ Jika pengguna adalah member (status_member == "ya"), harga tiket akan dikurangi 
 
  python
 print(f"Total harga yang harus dibayar: Rp{total_harga:.2f}")
-```
 
 Setelah menghitung total harga, anda dapat langsung menjalankan fungsinya
 
 Hasil program tersebut:
 
+![python1](https://github.com/user-attachments/assets/3748410e-b384-4e6f-a4da-60027bdd0dbe)
 
 
