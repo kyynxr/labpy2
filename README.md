@@ -90,4 +90,101 @@ Hasil program tersebut:
 
 ![python1](https://github.com/user-attachments/assets/3748410e-b384-4e6f-a4da-60027bdd0dbe)
 
+Code program tersebut:
+
+![python2](https://github.com/user-attachments/assets/30e099c7-f7e5-401b-9877-cfd641f2a5d5)
+
+3Dan ini flowchart nya
+
+![Gambar](https://github.com/user-attachments/assets/4f18d40d-0f74-459b-8d86-664b0dacdff7)
+
+# Prorgam Kalkulator Sederhana
+
+![Gambar](https://github.com/user-attachments/assets/64d66b05-b414-4780-940c-5ac28bfe814d)
+
+python
+# Fungsi untuk kalkulator sederhana
+def kalkulator():
+    # Meminta input dari pengguna
+    angka1 = float(input("Masukkan angka pertama: "))
+    angka2 = float(input("Masukkan angka kedua: "))
+    operator = input("Masukkan operator (+, -, *, /): ").strip()
+
+# Menghitung hasil berdasarkan operator yang dipilih
+    if operator == "+":
+        hasil = angka1 + angka2
+    elif operator == "-":
+        hasil = angka1 - angka2
+    elif operator == "*":
+        hasil = angka1 * angka2
+    elif operator == "/":
+        if angka2 != 0:
+            hasil = angka1 / angka2
+        else:
+            print("Error: Pembagian dengan nol tidak diperbolehkan!")
+            return
+    else:
+        print("Error: Operator tidak valid!")
+        return
+
+    # Menampilkan hasil
+    print(f"Hasil: {hasil}")
+
+# Memanggil fungsi
+kalkulator()
+
+Program kalkulator sederhana dalam Python adalah proyek yang baik untuk pemula dan programmer tingkat lanjut. Program ini memungkinkan pengguna untuk melakukan operasi matematika seperti penjumlahan, pengurangan, perkalian, dan pembagian.
+
+ python
+    angka1 = float(input("Masukkan angka pertama: "))
+    angka2 = float(input("Masukkan angka kedua: "))
+    operator = input("Masukkan operator (+, -, *, /): ").strip()
+
+
+Pengguna diminta memasukkan angka pertama dan angka kedua, yang kemudian dikonversi menjadi tipe float agar bisa menerima bilangan desimal, Pengguna diminta memasukkan operator aritmatika, yaitu salah satu dari + (penjumlahan), - (pengurangan), * (perkalian), atau / (pembagian). Fungsi strip() digunakan untuk menghapus spasi yang mungkin tidak sengaja dimasukkan
+
+python
+if operator == "+":
+        hasil = angka1 + angka2
+    elif operator == "-":
+        hasil = angka1 - angka2
+    elif operator == "*":
+        hasil = angka1 * angka2
+    elif operator == "/":
+        if angka2 != 0:
+            hasil = angka1 / angka2
+        else:
+            print("Error: Pembagian dengan nol tidak diperbolehkan!")
+            return
+
+
+Jika operator adalah +, maka fungsi akan menjumlahkan kedua angka (angka1 + angka2), Jika operator adalah -, maka fungsi akan mengurangi angka pertama dengan angka kedua (angka1 - angka2), Jika operator adalah *, maka fungsi akan mengalikan angka pertama dengan angka kedua (angka1 * angka2), Jika operator adalah /, maka fungsi akan membagi angka pertama dengan angka kedua (angka1 / angka2). Namun, sebelum melakukan pembagian, fungsi memastikan bahwa angka kedua (angka2) tidak bernilai nol, karena pembagian dengan nol tidak valid dan akan menyebabkan error.
+
+python
+ else:
+        print("Error: Operator tidak valid!")
+        return
+
+    # Menampilkan hasil
+    print(f"Hasil: {hasil}")
+
+# Memanggil fungsi
+kalkulator()
+
+
+Jika pengguna memasukkan operator yang tidak dikenali (bukan +, -, *, atau /), Setelah operasi berhasil dijalankan, hasil perhitungan akan ditampilkan kepada pengguna
+
+Hasil program tersebut:
+
+![gambar](https://github.com/user-attachments/assets/765d056b-f159-444a-b17b-920ef9e0e764)
+
+Code program tersebut:
+
+![gambar](https://github.com/user-attachments/assets/bff74048-f778-417d-9daf-2b4dd258a97c)
+
+Dan ini flowchart nya :
+
+![gambar](https://github.com/user-attachments/assets/a94f8685-4883-4999-9edf-e35817a985c6)
+
+
 
